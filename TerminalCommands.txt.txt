@@ -1,2 +1,0 @@
-npm i prompt-sync prompt sync
-npm i -save-dev function prime palindrome
