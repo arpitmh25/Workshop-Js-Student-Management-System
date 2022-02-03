@@ -1,4 +1,4 @@
-console.log(" Welcome To PinCode Validation");
+console.log(" Welcome To PinCode Validation ");
 
 const pincodeRegex = RegExp("^[0-9]{6}$");
 
@@ -8,9 +8,10 @@ function validatePincode(pincode){
     else
         throw pincode + " : PINCODE is Invalid !";
 }
+
 try{
     validatePincode("400088");
-    validatePincode("A40000");
+    validatePincode("40088B");
 }
 catch(e){
     console.error(e);
